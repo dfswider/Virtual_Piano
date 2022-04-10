@@ -1,28 +1,29 @@
 body{
-    background-color: chocolate;
+    background-color: darkgreen;
     margin: 0 auto;
 }
 
 .container{
-    position: absolute;
-    width: 70%;
-    height: 60%;
-    margin: 0 auto;
+    position: relative;
+    width: 80%;
+    height: 80%;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-top: 10%
-
+    margin: 10% auto 0;
+    border: 1px;
 }
 
 kbd {
     /*position: absolute;*/
-    width: 10%;
-    height: 50%;
+    display: inline-block;
+    /*width: 10%;*/
+    height: 100%;
     margin-left: 0;
-    color: white;
+    background-color: white;
     border-radius: 2px;
-    padding: 2px;
+    padding: 5%;
     border: 2px solid black;
+    text-align: center;
 
 }
